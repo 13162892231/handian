@@ -1,0 +1,116 @@
+﻿html {height: 100%;}
+body {margin: 0;font-family: Microsoft YaHei,Arial, Helvetica, sans-serif;font-size: 13px;line-height: 1.5;position: relative;height: 100%;background:url('../Images/tou_bg.jpg') no-repeat;background-size:100%;}
+.myswiper { width:400px;height:600px;padding-top:50px;}
+    .myswiper .swiper-slide { width:400px;height:600px;}
+    .swiperVertical_0 { width:330px;height:180px;}
+    .swiperVertical_0 .swiper-slide { width:400px; height:100px;border-bottom:1px solid #e4e9ee;}
+
+    .swiperVertical_1 { width:330px;height:160px;}
+    .swiperVertical_1 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_2 { width:330px;height:160px;}
+    .swiperVertical_2 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_3 { width:330px;height:160px;}
+    .swiperVertical_3 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_4 { width:330px;height:160px;}
+    .swiperVertical_4 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_5 { width:330px;height:160px;}
+    .swiperVertical_5 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_6 { width:330px;height:160px;}
+    .swiperVertical_6 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_7 { width:330px;height:160px;}
+    .swiperVertical_7 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_8 { width:330px;height:160px;}
+    .swiperVertical_8 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_9 { width:330px;height:160px;}
+    .swiperVertical_9 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+    .swiperVertical_10 { width:330px;height:160px;}
+    .swiperVertical_10 .swiper-slide { width:400px;height:100px;border-bottom:1px solid #e4e9ee;}
+
+
+
+
+.mask { display:none; position:absolute;width:100%;height:100%;z-index:2;top:0;background-color:rgba(0, 0, 0, 0.43);}
+.divreview {position:absolute;width:80%;left:10%;right:10%;top:200px;height:320px;border-radius:5px;z-index:3; background-color:#ffffff;padding-top:40px; display:none; }
+    .divreview > p { font-size:20px;padding-left:40px;}
+        .divreview > p > input { height:30px;font-size:16px;}
+     .divreview > p:first-child { font-size:20px;padding-left:80px;}
+.divvote { display:none; position:absolute;width:80%;left:10%;right:10%;top:200px;height:320px;border-radius:5px;z-index:3; background-color:#ffffff;padding-top:40px;}
+.divvote > p { font-size:20px;padding-left:40px;}
+        .divvote > p > input { height:30px;font-size:16px;}
+     .divvote > p:nth-child(2) { font-size:20px;padding-left:87px;}
+
+
+     .exit { position:absolute;top:10px;right:30px;width:40px;}
+
+
+     .icon2{ width:30px;height:70px;position:absolute;display:none;z-index:4;top:40%; left:0px;}
+.icon3 { width:30px;height:65px;position:absolute;display:none;z-index:4;top:40%; right:0px;}
+
+.iconAnimation2 { 
+
+ 
+        -webkit-animation:iconAnimation2 2s 0s infinite  ease both;
+    -moz-animation:iconAnimation2 2s 0s infinite ease both;
+       display:block;
+}
+@-webkit-keyframes iconAnimation2 {
+	0%{opacity:0;-webkit-transform:translateX(30px)}
+	70%{opacity:1;-webkit-transform:translateX(0)}
+	100%{opacity:0;-webkit-transform:translateX(-10px)}
+
+}
+@-moz-keyframes iconAnimation2 {
+	0%{opacity:0;-webkit-transform:translateX(30px)}
+	70%{opacity:1;-webkit-transform:translateX(0)}
+	100%{opacity:0;-webkit-transform:translateX(-10px)}
+
+}
+.iconAnimation3 { 
+
+ 
+        -webkit-animation:iconAnimation3 2s 0s infinite  ease both;
+    
+    -moz-animation:iconAnimation3 2s 0s infinite ease both;
+       display:block;
+}
+
+
+@-webkit-keyframes iconAnimation3 {
+	0%{opacity:0;-webkit-transform:translateX(-20px)}
+	70%{opacity:1;-webkit-transform:translateX(0)}
+	100%{opacity:0;-webkit-transform:translateX(10px)}
+
+}
+@-moz-keyframes iconAnimation3 {
+    0% { opacity: 0; -webkit-transform: translateX(30px); }
+    70% { opacity: 1; -webkit-transform: translateX(0); }
+    100% { opacity: 0; -webkit-transform: translateX(-20px); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content { width:400px;height:600px;background-color:#ffffff;border-radius:5px;}
+
+.Program_title { font-size:20px;padding-left:40px;margin-top:10px;margin-bottom:10px;}
+
+.Program { width:100%;height:200px;background-color:#e4e9ee;padding-top:20px;padding-bottom:20px;}
+    .Program > img { width:80%;margin-right:10%;margin-left:10%;}
+.review {font-size:20px;padding-left:40px;padding-top:10px;padding-bottom:10px;border-bottom:1px solid #e4e9ee; margin:0;}
+
+.pname { font-size:18px;margin:0;padding-top:10px;padding-bottom:5px;padding-left:5px;}
+.previewcontent { width:300px;  font-size:16px;margin:0;padding-bottom:10px;padding-left:5px; color:rgb(128, 128, 129);word-wrap: break-word; }
+
+.divbtu { width:100%;text-align:center;padding-top:20px;}
+.divbtu >a>img{width:150px;margin-left:10px;margin-right:10px; }
